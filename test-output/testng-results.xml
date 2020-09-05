@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite for Rest APIs" duration-ms="18705" started-at="2020-09-05T03:49:52Z" finished-at="2020-09-05T03:50:11Z">
+    <groups>
+    </groups>
+    <test name="REstAPI REsgression Test" duration-ms="18705" started-at="2020-09-05T03:49:52Z" finished-at="2020-09-05T03:50:11Z">
+      <class name="com.qa.api.gorest.tests.CreateUser">
+        <test-method status="PASS" signature="createMultipleUsersWithExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.gorest.tests.CreateUser@5c7f0b]" name="createMultipleUsersWithExcel" duration-ms="1554" started-at="2020-09-05T03:50:01Z" data-provider="getUserData" finished-at="2020-09-05T03:50:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aparna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultipleUsersWithExcel -->
+        <test-method status="PASS" signature="createMultipleUsersWithExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.gorest.tests.CreateUser@5c7f0b]" name="createMultipleUsersWithExcel" duration-ms="1461" started-at="2020-09-05T03:50:02Z" data-provider="getUserData" finished-at="2020-09-05T03:50:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[y45@yahoo.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultipleUsersWithExcel -->
+        <test-method status="PASS" signature="createMultipleUsersWithExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.gorest.tests.CreateUser@5c7f0b]" name="createMultipleUsersWithExcel" duration-ms="1458" started-at="2020-09-05T03:50:04Z" data-provider="getUserData" finished-at="2020-09-05T03:50:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tg56@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultipleUsersWithExcel -->
+        <test-method status="PASS" signature="createMultipleUsersWithExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.gorest.tests.CreateUser@5c7f0b]" name="createMultipleUsersWithExcel" duration-ms="1492" started-at="2020-09-05T03:50:05Z" data-provider="getUserData" finished-at="2020-09-05T03:50:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mohit@hotmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultipleUsersWithExcel -->
+        <test-method status="PASS" signature="createUserWithPojo()[pri:0, instance:com.qa.api.gorest.tests.CreateUser@5c7f0b]" name="createUserWithPojo" duration-ms="1470" started-at="2020-09-05T03:50:07Z" finished-at="2020-09-05T03:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserWithPojo -->
+      </class> <!-- com.qa.api.gorest.tests.CreateUser -->
+      <class name="com.qa.api.gorest.tests.ImgurGetAPI">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.api.gorest.tests.ImgurGetAPI@187fff7]" name="setUp" is-config="true" duration-ms="2950" started-at="2020-09-05T03:49:52Z" finished-at="2020-09-05T03:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAccountBlockStatusTest()[pri:0, instance:com.qa.api.gorest.tests.ImgurGetAPI@187fff7]" name="getAccountBlockStatusTest" duration-ms="744" started-at="2020-09-05T03:49:55Z" finished-at="2020-09-05T03:49:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAccountBlockStatusTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.api.gorest.tests.ImgurGetAPI@187fff7]" name="setUp" is-config="true" duration-ms="268" started-at="2020-09-05T03:49:56Z" finished-at="2020-09-05T03:49:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAccountImageTest()[pri:0, instance:com.qa.api.gorest.tests.ImgurGetAPI@187fff7]" name="getAccountImageTest" duration-ms="570" started-at="2020-09-05T03:49:56Z" finished-at="2020-09-05T03:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAccountImageTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.api.gorest.tests.ImgurGetAPI@187fff7]" name="setUp" is-config="true" duration-ms="313" started-at="2020-09-05T03:49:57Z" finished-at="2020-09-05T03:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="uploadImageTest()[pri:0, instance:com.qa.api.gorest.tests.ImgurGetAPI@187fff7]" name="uploadImageTest" duration-ms="2451" started-at="2020-09-05T03:49:57Z" finished-at="2020-09-05T03:50:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadImageTest -->
+      </class> <!-- com.qa.api.gorest.tests.ImgurGetAPI -->
+      <class name="com.qa.api.gorest.tests.GetUserTest">
+        <test-method status="PASS" signature="getAllusersApiTest()[pri:0, instance:com.qa.api.gorest.tests.GetUserTest@1d5c1a0]" name="getAllusersApiTest" duration-ms="1471" started-at="2020-09-05T03:50:08Z" finished-at="2020-09-05T03:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllusersApiTest -->
+        <test-method status="PASS" signature="getUserWithQueryParams()[pri:0, instance:com.qa.api.gorest.tests.GetUserTest@1d5c1a0]" name="getUserWithQueryParams" duration-ms="1455" started-at="2020-09-05T03:50:09Z" finished-at="2020-09-05T03:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserWithQueryParams -->
+      </class> <!-- com.qa.api.gorest.tests.GetUserTest -->
+    </test> <!-- REstAPI REsgression Test -->
+  </suite> <!-- Test Suite for Rest APIs -->
+</testng-results>

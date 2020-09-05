@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite for Rest APIs">
+<listeners>
+<!-- <listener class-name="com.qa.api.gorest.listeners.ExtentReportsListener"></listener> -->
+<listener class-name="com.qa.api.gorest.listeners.AllureReportListener"></listener>
+<listener class-name="com.qa.api.gorest.listeners.TesultsListener"></listener>
+
+</listeners>
+  <test thread-count="5" name="REstAPI REsgression Test">
+    <classes>
+      <class name="com.qa.api.gorest.tests.ImgurGetAPI"/>
+      <class name="com.qa.api.gorest.tests.CreateUser"/>
+      <class name="com.qa.api.gorest.tests.GetUserTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
